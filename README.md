@@ -40,13 +40,11 @@ Eventify is a full-stack event management platform that allows users to browse a
 git clone https://github.com/yourusername/Event_Management.git
 ```
 2. **Start backend:**
--> replace 'your_password' in application.properties with your actual MySQL Database Server password
+-> replace 'your_password' in application.properties with your actual MySQL Database Server password and username if needed
 ```bash
 cd backend
-# Install dependencies
-npm install
 # Start server
-npm start
+mvn spring-boot:run
 ```
 3. **Start frontend:**
 ```bash
